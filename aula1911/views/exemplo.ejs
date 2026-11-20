@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo EJS</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+    <% for (let p of pessoas) { %>
+      <tr>
+        <td><%= p.nome %></td>
+        <td><%= p.idade %></td>
+      </tr>
+    <% } %>
+  </table>
+</body>
+</html>
+ 
+
